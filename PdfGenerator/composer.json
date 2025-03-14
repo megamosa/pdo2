@@ -1,0 +1,19 @@
+{
+    "name": "magoarab/module-pdfgenerator",
+    "description": "Replace Zend PDF with FPDF for Magento 2.4.X with Arabic language support",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "require": {
+        "php": "~7.4.0||~8.1.0",
+        "setasign/fpdf": "^1.8",
+        "phenx/php-font-lib": "^0.5.4"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MagoArab\\PdfGenerator\\": ""
+        }
+    }
+}
